@@ -35,6 +35,7 @@ function calculateRentalCost(days) {
   } else if (days >= 3) {
     return standart - 20;
   }
+
   return standart;
 }
 
